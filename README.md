@@ -29,3 +29,29 @@
     h1 {
       color: #0077cc;
     }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .contact {
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenidos al Frente Liberal Bonaerense en Tres de Febrero</h1>
+    <!-- Cambia la URL de la imagen por la que elijas -->
+    <img src="[https://via.placeholder.com/800x400.png?text=Foto+de+FLB+Tres+de+Febrero](https://ibb.co/CXrGPvy)" alt="Foto FLB Tres de Febrero">
+    <div class="contact">
+      <p>Email: <a href="mailto:info@flbtresdefebrero.com.ar">info@flbtresdefebrero.com.ar</a></p>
+      <p>Celular: <a href="tel:+541130973257">+54 11 3097-3257</a></p>
+      <p>Instagram: <a href="https://instagram.com/flbtresdefebrero" target="_blank" rel="noopener">@flbtresdefebrero</a></p>
+    </div>
+  </div>
+</body>
+</html>
